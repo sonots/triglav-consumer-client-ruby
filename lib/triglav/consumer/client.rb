@@ -1,4 +1,5 @@
 require 'triglav_client'
+require 'triglav/consumer/client/version'
 
 # This Triglav client connects to triglav API, and
 # automatically authenticates when it is required, and

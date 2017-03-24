@@ -1,3 +1,5 @@
+require 'triglav/consumer/client/version'
+
 module Triglav
   module Consumer
     class StubClient

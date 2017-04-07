@@ -72,6 +72,14 @@ module Triglav
         example_job
       end
 
+      # Delete a job
+      #
+      # @param [String or Integer] id_or_uri job id or uri
+      # @return [nil]
+      def delete_job(id_or_uri)
+        nil
+      end
+
       def get_last_message_id
         TriglavClient::LastMessageIdResponse.new.tap {|resp| resp.id = 1 }
       end
